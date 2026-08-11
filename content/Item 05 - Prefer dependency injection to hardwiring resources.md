@@ -1,0 +1,1 @@
+Static utility classes and singletons are not applicable to classes whose behavior is parameterized by an underlying resource. In this case dependency injection is the best approach (pass the dependency as a constructor parameter).
