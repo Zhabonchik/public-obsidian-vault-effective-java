@@ -1,0 +1,1 @@
+Try to reuse existing objects instead of creating new ones where it's applicable. But remember that insufficient accuracy in object copying is much more dangerous than new instance creation which merely affects performance.
