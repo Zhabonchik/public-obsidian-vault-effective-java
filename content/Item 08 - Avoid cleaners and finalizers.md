@@ -1,0 +1,1 @@
+Don't use cleaners or finalizers. Stick to implementing Autoclosable interface.
