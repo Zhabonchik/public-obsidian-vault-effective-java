@@ -1,0 +1,1 @@
+Cloneable implementation is difficult in terms of making it correct. If there is bo such hash need, consider implementing copy Constructors or copy static factories.
