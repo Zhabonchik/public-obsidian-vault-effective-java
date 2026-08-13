@@ -1,0 +1,2 @@
+Tend to always override the toString() method unless its superclass already does it and it is acceptable.
+If you plan to change your toString() method logic, then declare this in docs and don't provide a pattern that other developers can rely on. Ideally there should be a static factory method that would allow to convert String representation of your (especially value) class into an object of the class. Also your class must contain methods (getters) to programmatically access fields used in toString() method .
