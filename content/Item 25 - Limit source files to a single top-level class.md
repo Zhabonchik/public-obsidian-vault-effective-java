@@ -1,0 +1,1 @@
+Never put multiple top-level classes or interfaces in a single file. Instead, split them into dedicated files or utilize static member classes.
