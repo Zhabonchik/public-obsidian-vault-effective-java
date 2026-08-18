@@ -1,0 +1,3 @@
+Even though default methods in interfaces provide us with backward compatibility, it is highly important to design interfaces from scratch. Because if you add a default method to an existing interface it may still break the contract of the class that implements it. 
+
+Synchronization class may implement an interface -> you add a default method that is not overridden by the class -> the method becomes unsynchronized inside the synchronized class   -> the class is broken.
