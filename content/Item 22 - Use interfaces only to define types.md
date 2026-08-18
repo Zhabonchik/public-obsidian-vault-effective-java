@@ -1,0 +1,1 @@
+Interfaces should be used to define types. Don't use interfaces to define constants — use utility classes.
