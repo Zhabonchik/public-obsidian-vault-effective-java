@@ -1,0 +1,1 @@
+EnumSets are better than bit fields.
