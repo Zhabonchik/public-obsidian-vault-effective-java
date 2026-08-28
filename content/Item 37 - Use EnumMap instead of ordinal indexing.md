@@ -1,0 +1,1 @@
+Prefer the usage of EnumMap to an array with ordinal() indexing.
