@@ -1,0 +1,5 @@
+- **Marker Interfaces Define Real Types:** Unlike marker annotations, marker interfaces create a genuine Java type. This enables compile-time type checking, allowing the compiler to catch invalid object parameters at compile time rather than relying on runtime reflection or checks.
+- **Narrower Scope Targeting:** A marker interface can extend a specific base interface. This restricts the mark strictly to subtypes of that base interface. In contrast, a marker annotation targeted at classes (`@Target(ElementType.TYPE)`) applies broadly to any class or interface across the entire application.
+- **When to Use Annotations Instead:** Use a marker annotation if the mark targets program elements other than classes or interfaces (such as methods, fields, or parameters), or if the mark needs to integrate directly into an annotation-processing framework.
+
+If you plan to write one or more methods that accept only marked objects as parameters, use a marker interface so the Java compiler can enforce the type constraint. If you will never write a method that takes the marked type directly, default to a marker annotation.
