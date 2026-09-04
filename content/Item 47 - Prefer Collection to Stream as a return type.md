@@ -1,0 +1,2 @@
+If it is feasible to return a collection - do so. If you already have elements in a collection or the number of elements in sequence is relatively small to justify collection creation, then return a standard collection. Otherwise consider implementing a custom collection.
+If it is not feasible to return a collection, then return a Stream or Iterable.
