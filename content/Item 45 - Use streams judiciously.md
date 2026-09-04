@@ -1,6 +1,10 @@
 Streams consist of an initial stream, 0 or more intermediate operations and 1 terminal operation. 
 Streams work lazily which means computations start only after the terminal operation is reached.
 
+**Stateless vs. Stateful Barriers**:
+- **Stateless Operations** (`filter`, `map`, `flatMap`): Elements pass vertically one by one.
+- **Stateful Operations** (`sorted`, `distinct`): These create a "pipeline barrier." A `sorted()` operation _must_ consume all upstream elements and buffer them in memory before it can determine the first element to pass downstream.
+
 **Overusing streams makes program hard to read and maintain.**
 
 In the absence of explicit types variable naming is very important in streams. Using helper methods is even more important.
