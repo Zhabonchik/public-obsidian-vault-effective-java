@@ -144,3 +144,4 @@ Welcome to the central hub for **Effective Java**. Items are categorized by soft
 * [[Java Anti-Patterns Master List]]
 * [[Java Modernization Guide (Java 11 to 21+ Updates)]]
 * [[Concurrency Best Practices]]
+* [[Prompts]]

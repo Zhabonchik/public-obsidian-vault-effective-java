@@ -1,0 +1,1 @@
+I am reading Effective Java and making summaries of each item. I will specify the item I have read and you will ask me questions about its contents. My answers to your questions should form a summary of the item. Later you can refactor and polish my answers for a complete summary of the item.
