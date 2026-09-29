@@ -1,0 +1,1 @@
+Don't use String concatenation for combining more than a few strings, since it always creates a copy and works for a quadratic time.
